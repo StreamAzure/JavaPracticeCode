@@ -97,7 +97,7 @@ public class MyLock {
         // 否则释放锁之后拿到的头节点就不是真正的头节点了
 
         count.set(0);
-        owner = null;
+//        owner = null;
 
         if (next != null) {
             // 唤醒下一个线程
